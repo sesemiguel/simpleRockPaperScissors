@@ -3,19 +3,6 @@
 	<head>
 		<title>Rock Paper Scissors</title>
 		<script>
-			/*
-			CHOICES
-			(CHOICE,CHOICE) - WINNER
-			(1,1) - DRAW
-			(1,2) - 2
-			(1,3) - 1
-			(2,1) - 1
-			(2,2) - DRAW
-			(2,3) - 2
-			(3,1) - 2
-			(3,2) - 1
-			(3,3) - DRAW
-			*/	
 			function checkWinner(choice1,choice2){
 				if (choice1==choice2){
 					alert("Draw");
@@ -35,8 +22,6 @@
 	<body>
 		<script>
 			alert("ROCK PAPER SCISSORS SCRIPT\n1 - Rock\n2 - Paper\n3 - Scissors");
-			var score_player1;
-			var score_player2;
 			var choice1 = prompt("Enter choice for player1: ");
 			var choice2 = prompt("Enter choice for player2: ");
 			checkWinner(choice1,choice2);
